@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;display:block;z-index:1;position:relative" width="639" height="448" preserveAspectRatio="xMidYMid" viewBox="0 0 639 448">
+<g transform="translate(319.5,224) scale(1,1) translate(-319.5,-224)"><g transform="translate(659.9085519786574,136.59793915591177) scale(100)" opacity="1">
+  <path d="M3.5145000000000004 0 C3.5145000000000004 0 2.1520105878016866e-16 3.5145000000000004 2.1520105878016866e-16 3.5145000000000004 S-3.5145000000000004 4.304021175603373e-16 -3.5145000000000004 4.304021175603373e-16 S-6.456031763405059e-16 -3.5145000000000004 -6.456031763405059e-16 -3.5145000000000004 S3.5145000000000004 -8.608042351206746e-16 3.5145000000000004 -8.608042351206746e-16" fill="#bcbdf9" stroke-width="0">
+    <animateTransform attributeName="transform" type="rotate" dur="100s" repeatCount="indefinite" values="0;180"></animateTransform>
+  </path>
+</g></g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin:auto;background:#f1f2f3;display:block;z-index:1;position:relative" width="639" height="448" preserveAspectRatio="xMidYMid" viewBox="0 0 639 448">
+<g transform="translate(319.5,224) scale(1,1) translate(-319.5,-224)"><g transform="translate(659.9085519786574,136.59793915591177) scale(100)" opacity="1">
+  <path d="M3.5145000000000004 0 C3.5145000000000004 0 2.1520105878016866e-16 3.5145000000000004 2.1520105878016866e-16 3.5145000000000004 S-3.5145000000000004 4.304021175603373e-16 -3.5145000000000004 4.304021175603373e-16 S-6.456031763405059e-16 -3.5145000000000004 -6.456031763405059e-16 -3.5145000000000004 S3.5145000000000004 -8.608042351206746e-16 3.5145000000000004 -8.608042351206746e-16" fill="#6366f1" stroke-width="0">
+    <animateTransform attributeName="transform" type="rotate" dur="200s" repeatCount="indefinite" values="0;180"></animateTransform>
+  </path>
+</g><g transform="translate(727.990262374389,119.11752698709412) scale(100)" opacity="1">
+  <path d="M4.2174000000000005 0 C4.2174000000000005 0 2.582412705362024e-16 4.2174000000000005 2.582412705362024e-16 4.2174000000000005 S-4.2174000000000005 5.164825410724048e-16 -4.2174000000000005 5.164825410724048e-16 S-7.747238116086072e-16 -4.2174000000000005 -7.747238116086072e-16 -4.2174000000000005 S4.2174000000000005 -1.0329650821448097e-15 4.2174000000000005 -1.0329650821448097e-15" fill="#363885" stroke-width="0">
+    <animateTransform attributeName="transform" type="rotate" dur="150s" repeatCount="indefinite" values="0;180"></animateTransform>
+  </path>
+</g></g>
+</svg></svg>

@@ -1,0 +1,43 @@
+.check-in-container {
+  height: calc(100vh - 70px);
+
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-template:
+  "search     search     search     search     search     search     search     search     search     cart  cart  cart"
+  "products   products   products   products   products   products   products   products   products   cart  cart  cart"
+  "products   products   products   products   products   products   products   products   products   cart  cart  cart"
+  "products   products   products   products   products   products   products   products   products   cart  cart  cart"
+  "products   products   products   products   products   products   products   products   products   cart  cart  cart"
+  "products   products   products   products   products   products   products   products   products   cart  cart  cart"
+  "products   products   products   products   products   products   products   products   products   taxes taxes taxes"
+  "products   products   products   products   products   products   products   products   products   taxes taxes taxes"
+  "products   products   products   products   products   products   products   products   products   total total total"
+  "products   products   products   products   products   products   products   products   products   total total total"
+  "products   products   products   products   products   products   products   products   products   total total total"
+  "categories categories categories categories categories categories categories categories categories total total total"
+  ;
+
+  .search {
+    grid-area: search;
+    // align-self: center;
+  }
+  .products {
+    grid-area: products;
+  }
+  .categories {
+    grid-area: categories;
+  }
+  .cart {
+    grid-area: cart;
+  }
+  .taxes {
+    grid-area: taxes;
+  }
+  .total {
+    grid-area: total;
+  }
+
+}
