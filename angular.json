@@ -6,7 +6,7 @@
     "analytics": false
   },
   "projects": {
-    "app-pos": {
+    "noah-app-pos": {
       "projectType": "application",
       "root": "",
       "sourceRoot": "src",
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/app-pos",
+            "outputPath": "dist/noah-app-pos",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -70,10 +70,10 @@
           },
           "configurations": {
             "production": {
-              "buildTarget": "app-pos:build:production"
+              "buildTarget": "noah-app-pos:build:production"
             },
             "development": {
-              "buildTarget": "app-pos:build:development"
+              "buildTarget": "noah-app-pos:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -25,7 +25,12 @@
         </span>
         @if (invalidUsername()) {
           <small class="p-error block">
-            Campo inválido.
+            e-mail inválido.
+          </small>
+        }
+        @if (requiredUsername()) {
+          <small class="p-error block">
+            *Requerido.
           </small>
         }
       </section>
@@ -40,6 +45,16 @@
           </p-password>
           <label for="password">Contraseña</label>
         </span>
+        @if (invalidPassword()) {
+          <small class="p-error block">
+            Contraseña inválida. Debe ser menor a 255 caracteres.
+          </small>
+        }
+        @if (requiredPassword()) {
+          <small class="p-error block">
+            *Requerido.
+          </small>
+        }
       </section>
 
       <section class="mt-5">
@@ -50,6 +65,16 @@
           (click)="onSubmit()"
         ></p-button>
       </section>
+
+      @if (invalidCredentials && submitted) {
+        <p-messages
+          [showTransitionOptions]="'500ms'"
+          [hideTransitionOptions]="'500ms'"
+          [(value)]="messages"
+          [enableService]="false"
+          [closable]="false"
+        />
+      }
     </form>
 
     <ng-template pTemplate="footer">

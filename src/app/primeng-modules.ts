@@ -6,6 +6,7 @@ import { MenubarModule } from 'primeng/menubar';
 import { PasswordModule } from 'primeng/password';
 import { ProgressSpinnerModule } from 'primeng/progressspinner';
 import { SidebarModule } from 'primeng/sidebar';
+import { MessagesModule } from 'primeng/messages';
 
 export const primengModules = [
   AvatarModule,
@@ -13,6 +14,7 @@ export const primengModules = [
   CardModule,
   InputTextModule,
   MenubarModule,
+  MessagesModule,
   PasswordModule,
   ProgressSpinnerModule,
   SidebarModule,

@@ -1,5 +1,5 @@
 [package]
-name = "app-pos"
+name = "noah-app-pos"
 version = "0.0.0"
 description = "A Tauri App"
 authors = ["you"]
